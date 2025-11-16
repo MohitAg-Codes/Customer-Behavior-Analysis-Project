@@ -1,132 +1,83 @@
-🎯 Customer Behavior Analysis Dashboard (Power BI Project)
-📊 Overview
+**🎯 Customer Behavior Analysis Dashboard (Power BI Project)**
 
-This project presents a Customer Behavior Analysis Dashboard built using Python, MySQL, and Power BI.
-It analyzes customer shopping patterns, revenue trends, age group performance, and subscription behavior.
+---
 
-The dashboard helps users understand:
+**📊 Overview**  
+This project presents a **Customer Behavior Analysis Dashboard** built using **Python, MySQL, and Power BI**.  
+It analyzes customer demographics, shopping patterns, revenue trends, and product performance.
 
-Category-wise sales & revenue
+The dashboard helps users understand:  
+- Category-wise revenue  
+- Age group contribution  
+- Subscription vs non-subscription spending  
+- Shipping type behavior  
+- Review rating patterns  
+- Customer segmentation  
 
-Age group contribution
+---
 
-Subscription vs non-subscription spending
+**🚀 Key Features**  
 
-Shipping type behavior
+**✔️ Top Selling Product Categories**  
+Shows the highest revenue-generating categories.
 
-Review rating patterns
+**✔️ Age Group Revenue Trend**  
+Displays spending patterns across all age groups.
 
-Overall customer purchase trends
+**✔️ Subscription vs Non-Subscription Insights**  
+Compares revenue and purchasing behavior.
 
-🚀 Key Features
+**✔️ Shipping Type Comparison**  
+Analyzes Standard vs Express shipping preferences.
 
-Interactive Power BI customer analytics dashboard
+**✔️ Customer Segmentation**  
+Groups customers into **New**, **Returning**, and **Loyal** segments.
 
-Python-based EDA and complete data cleaning
+**✔️ High-Rated & Best-Selling Products**  
+Highlights top-rated and frequently purchased products.
 
-SQL (MySQL) business queries
+---
 
-Revenue & sales breakdown by category and age group
+**🧠 Tools & Technologies Used**  
+- **Python** (EDA, cleaning, feature engineering)  
+- **MySQL** (SQL business queries)  
+- **Power BI** (interactive dashboard)  
+- **Excel**  
+- **Jupyter Notebook**  
 
-Subscription behavior analysis
+---
 
-Customer segmentation: New, Returning & Loyal
+**📂 Project Files**
 
-Identification of top-rated & best-selling products
+| File Name | Description |
+|-----------|-------------|
+| Customer Behavior Dashboard.pbix | Power BI dashboard |
+| customer_behavior_dataset.csv | Dataset used |
+| Customer Behavior Analysis Report.pdf | Final insights report |
+| README.md | Project documentation |
 
-Final insight-driven business recommendations
+---
 
-📂 Dataset Summary
+**🧩 How to Use**
 
-Rows: 3,900
+1. Download **Customer Behavior Dashboard.pbix**  
+2. Open it in **Power BI Desktop**  
+3. Use filters (Category, Gender, Shipping Type)  
+4. Explore revenue, ratings & segmentation insights  
 
-Columns: 18
+---
 
-Includes:
+**🌟 Insights Summary**
 
-Customer demographics
+- 📈 Clothing category has the highest revenue  
+- 👥 Young adults are the highest spenders  
+- ⭐ Subscribers spend more than non-subscribers  
+- 🚚 Express shipping customers have higher order values  
+- 🔄 Loyal customers show strong repeat purchases  
 
-Purchase amount & product category
+---
 
-Review rating
+**📸 Dashboard Preview**  
+![Customer Behavior Dashboard](Customer%20Behavior%20Dashboard.png)
 
-Shipping type
-
-Discount & promo usage
-
-Past purchase behavior
-
-🛠️ Tools & Technologies
-
-Python (pandas, numpy, matplotlib, seaborn)
-
-MySQL (SQL queries)
-
-Power BI (dashboard)
-
-Excel
-
-Jupyter Notebook
-
-🔎 Project Workflow
-1️⃣ Data Loading & Cleaning (Python)
-
-Handled missing values
-
-Standardized column names
-
-Removed duplicates
-
-Created age_group & purchase_frequency_days
-
-2️⃣ Exploratory Data Analysis
-
-Age, rating, and purchase amount distribution
-
-Category-level performance
-
-Gender-based revenue trends
-
-Outlier detection
-
-3️⃣ SQL (MySQL) Analysis
-
-Revenue comparison by gender
-
-Subscriber vs non-subscriber spending
-
-High-rated & high-selling products
-
-Shipping type purchase trends
-
-Discount-based customer behavior
-
-Revenue by age group
-
-Top 3 products per category
-
-4️⃣ Power BI Dashboard
-
-KPIs: Total Customers, Avg Purchase Amount, Avg Rating
-
-Revenue by category
-
-Sales by age group
-
-Subscription status breakdown
-
-Filters: gender, category, shipping type
-
-5️⃣ Final Report
-
-SQL insights
-
-Dashboard visuals
-
-Key findings
-
-Business recommendations
-
-📊 Dashboard Preview
-
-(Add screenshot here)
+---
